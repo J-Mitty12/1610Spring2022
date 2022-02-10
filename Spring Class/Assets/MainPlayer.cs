@@ -5,8 +5,9 @@ using UnityEngine;
 public class MainPlayer : MonoBehaviour
 {
     // Use this for initialization
-    void Start() {
-        
+    void Start() 
+    {
+        Debug.Log("I am alive!")
     }
 
     // Update is called once per frame
