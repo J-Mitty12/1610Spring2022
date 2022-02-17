@@ -6,7 +6,9 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x = 7;
+            int y = 23;
+            Console.WriteLine(x + y);
         }
     }
 }
