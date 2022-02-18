@@ -8,6 +8,10 @@ public class Operations1 : MonoBehaviour
     {
         int x = 300 + 100;
         console.WriteLine(x);
+
+        int x = 74;
+        int y = 5;
+        console.WriteLine(x > y); // returns true because 74 is greater than 5
     }
     void Update()
     {
