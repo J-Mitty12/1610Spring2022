@@ -9,6 +9,9 @@ namespace HelloWorld
             int x = 7;
             int y = 23;
             Console.WriteLine(x + y);
+
+            int myNum = 45;
+            Console.WriteLine(myNum)
         }
     }
 }
