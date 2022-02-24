@@ -13,5 +13,14 @@ public class Conditionals : MonoBehaviour
         {
             Console.WriteLine("Hello World");
         }
+
+        {
+            int x = 78;
+            int y = 45;
+            if (x < y)
+            {
+                Console.WriteLine("Julian");
+            }
+        }
     }
 }
