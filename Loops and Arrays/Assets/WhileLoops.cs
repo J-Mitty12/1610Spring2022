@@ -12,6 +12,13 @@ class Program
             Console.WriteLine(i);
             i++;
         }
+
+        int i = 3;
+        {
+            Console.WriteLine(i);
+            i++;
+        }
+        while (i < 8) ;
     }
 }
 
