@@ -1,18 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using System;
 
-public class ForeachLoopsWithArrays : MonoBehaviour
+namespace HelloWorld
 {
-    // Start is called before the first frame update
-    void Start()
+    class Program
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        static void Main(string[] args)
+        {
+            string[] cars = {"Toyota", "Chevy", "BMW"};
+            Array.Sort(cars);
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }
+        }
     }
 }
